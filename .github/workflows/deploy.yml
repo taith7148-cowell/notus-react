@@ -1,6 +1,6 @@
 name: Deploy Static Page to S3
 on:
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   run-on: ubuntu-latest
